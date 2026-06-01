@@ -1,11 +1,19 @@
 <div align="center">
 
 <!-- Animated Header Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=8b949e" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=8b949e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=475569" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=475569" alt="Douglas Matos header" />
+</picture>
 
 <!-- Typing Animation -->
 <a href="https://github.com/dougmotshell">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" alt="Typing SVG" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" alt="Typing SVG" />
+  </picture>
 </a>
 
 <!-- Profile Views + Followers -->
@@ -27,7 +35,7 @@
 const douglas = {
   pronouns: "He/Him",
   location: "Brazil 🇧🇷",
-  role: "Software Engineer | Software Developer",
+  role: "Software Engineer | Software Developer | Vibe Coder Fixer",
   currently: {
     working: "Software development",
     learning: ["Java", "AI/ML", "MCP", "AI Agents"],
@@ -49,16 +57,28 @@ const douglas = {
 <table>
   <tr>
     <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dougmotshell&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" />
+        <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" alt="GitHub stats" />
+      </picture>
     </td>
     <td>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" />
+        <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" alt="Top languages" />
+      </picture>
     </td>
   </tr>
 </table>
 
 <!-- Streak Stats -->
-<img src="https://streak-stats.demolab.com?user=dougmotshell&theme=github-dark-blue&border=30363d&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&dates=8b949e" alt="GitHub Streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dougmotshell&theme=github-dark-blue&border=30363d&background=0d1117&ring=58a6ff&fire=ff6b6b&currStreakLabel=58a6ff&dates=8b949e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=dougmotshell&theme=default&border=d0d7de&background=ffffff&ring=0969da&fire=fd7e14&currStreakLabel=0969da&dates=57606a" />
+  <img src="https://streak-stats.demolab.com?user=dougmotshell&theme=default&border=d0d7de&background=ffffff&ring=0969da&fire=fd7e14&currStreakLabel=0969da&dates=57606a" alt="GitHub Streak" />
+</picture>
 
 </div>
 
@@ -82,14 +102,26 @@ const douglas = {
 
 **Frontend**
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=dark)](https://skillicons.dev)
+<a href="https://skillicons.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=light" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=light" alt="Frontend skills" />
+  </picture>
+</a>
 
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
 
 **Backend & Infra**
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=dark)](https://skillicons.dev)
+<a href="https://skillicons.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=light" alt="Backend and infrastructure skills" />
+  </picture>
+</a>
 
 **AI & Machine Learning**
 
@@ -100,7 +132,13 @@ const douglas = {
 
 **Tools & Others**
 
-[![My Skills](https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=dark)](https://skillicons.dev)
+<a href="https://skillicons.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=light" />
+    <img src="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=light" alt="Tooling skills" />
+  </picture>
+</a>
 
 </div>
 
@@ -111,7 +149,13 @@ const douglas = {
 
 ### 📈 Contribution Activity
 
-[![Douglas's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dougmotshell&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dougmotshell&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dougmotshell&bg_color=ffffff&color=0969da&line=1f883d&point=24292f&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=dougmotshell&bg_color=ffffff&color=0969da&line=1f883d&point=24292f&area=true&hide_border=true" alt="Douglas's github activity graph" />
+  </picture>
+</a>
 
 </div>
 
@@ -209,4 +253,8 @@ const douglas = {
 ---
 
 <!-- Footer Wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:cbd5e1,50:e2e8f0,100:f8fafc&height=120&section=footer" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:cbd5e1,50:e2e8f0,100:f8fafc&height=120&section=footer" alt="Footer wave" />
+</picture>
