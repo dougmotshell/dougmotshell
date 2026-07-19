@@ -48,9 +48,11 @@ const douglas = {
 ```
 
 </td>
-<td width="40%" valign="middle" align="center">
+<td width="40%" valign="top" align="center">
 
-<img alt="coding animation" width="100%" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" />
+<br/>
+
+<img alt="coding animation" width="300" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" />
 
 </td>
 </tr>
@@ -71,12 +73,11 @@ const douglas = {
 
 #### 📚 Librosistemo
 
-Book lending management system backed by the Google Sheets API, with a full unit-test suite and coverage reporting.
+Book lending system on the Google Sheets API, with a full unit-test suite and coverage reporting.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Google Sheets](https://img.shields.io/badge/Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
 
 [![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/librosistemo)
 
@@ -142,11 +143,9 @@ Manage stock over Telegram: LLMs read products from **photos** and **voice notes
 
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 
 ![vision + voice](https://img.shields.io/badge/LLM-vision%20%2B%20voice-8957e5?style=flat-square)
-![security](https://img.shields.io/badge/CI-CodeQL%20%2B%20Semgrep-1f6feb?style=flat-square)
 ![private](https://img.shields.io/badge/-private-6e7681?style=flat-square&logo=github&logoColor=white)
 
 </td>
@@ -159,10 +158,8 @@ Offline-first PWA that puts **spaced repetition** on your real calendar. Built w
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
 ![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
 [![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://lernema.vercel.app)
-![tickets](https://img.shields.io/badge/delivery%20tickets-14-1f6feb?style=flat-square)
 ![private](https://img.shields.io/badge/-private-6e7681?style=flat-square&logo=github&logoColor=white)
 
 </td>
@@ -252,56 +249,57 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 
 <table>
 <tr>
-<td align="right" width="150"><b>🎨 Frontend</b></td>
-<td align="left">
+<td align="center" width="50%" valign="top">
+
+**🎨 Frontend**
 
 <a href="https://skillicons.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=light" />
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=light" alt="Frontend skills" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&perline=5&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&perline=5&theme=light" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&perline=5&theme=light" alt="Frontend skills" />
   </picture>
 </a>
+
 ![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-433e38?style=flat-square&logo=react&logoColor=white)
 
 </td>
-</tr>
-<tr>
-<td align="right"><b>⚙️ Backend &amp; Infra</b></td>
-<td align="left">
+<td align="center" width="50%" valign="top">
+
+**⚙️ Backend &amp; Infra**
 
 <a href="https://skillicons.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=light" />
-    <img src="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,heroku,aws,gcp,linux,bash&theme=light" alt="Backend and infrastructure skills" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=light" />
+    <img src="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=light" alt="Backend and infrastructure skills" />
   </picture>
 </a>
 
 </td>
 </tr>
 <tr>
-<td align="right"><b>🤖 AI &amp; ML</b></td>
-<td align="left">
+<td align="center" width="50%" valign="top">
+
+**🤖 AI &amp; ML**
 
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![Copilot](https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-FF6F00?style=flat-square&logo=probot&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-0078D4?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 
 </td>
-</tr>
-<tr>
-<td align="right"><b>🧰 Tools</b></td>
-<td align="left">
+<td align="center" width="50%" valign="top">
+
+**🧰 Tools**
 
 <a href="https://skillicons.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=light" />
-    <img src="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=light" alt="Tooling skills" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vscode,idea,webpack,babel,jest,figma,postman,vercel&perline=5&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git,github,vscode,idea,webpack,babel,jest,figma,postman,vercel&perline=5&theme=light" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,webpack,babel,jest,figma,postman,vercel&perline=5&theme=light" alt="Tooling skills" />
   </picture>
 </a>
 
@@ -350,20 +348,35 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 
 ### 🌐 Connect with me
 
-<table>
-<tr>
-<td align="center"><a href="mailto:douglasmatosdev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a></td>
-<td align="center"><a href="https://www.linkedin.com/in/devdouglasmatos/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a></td>
-<td align="center"><a href="https://web.whatsapp.com/send?phone=5521994642132"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a></td>
-<td align="center"><a href="https://twitter.com/devdouglasmatos"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a></td>
-</tr>
-<tr>
-<td align="center"><a href="https://www.facebook.com/devdouglasmatos/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a></td>
-<td align="center"><a href="https://discordapp.com/users/douglasmatosdev#8237"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a></td>
-<td align="center"><a href="https://t.me/+5521994642132"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a></td>
-<td align="center"><a href="https://douglasmatosdasilva.com.br"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a></td>
-</tr>
-</table>
+<p>
+  <a href="mailto:douglasmatosdev@gmail.com">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=gmail&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=gmail&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=gmail&theme=light" alt="Gmail" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/devdouglasmatos/">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linkedin&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=linkedin&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=linkedin&theme=light" alt="LinkedIn" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://web.whatsapp.com/send?phone=5521994642132">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=whatsapp&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=whatsapp&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=whatsapp&theme=light" alt="WhatsApp" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://twitter.com/devdouglasmatos">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=twitter&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=twitter&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=twitter&theme=light" alt="Twitter" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://www.facebook.com/devdouglasmatos/">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=facebook&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=facebook&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=facebook&theme=light" alt="Facebook" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://discordapp.com/users/douglasmatosdev#8237">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=discord&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=discord&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=discord&theme=light" alt="Discord" /></picture>
+  </a>
+  &nbsp;
+  <a href="https://t.me/+5521994642132">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=telegram&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=telegram&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=telegram&theme=light" alt="Telegram" /></picture>
+  </a>
+</p>
 
 </div>
 

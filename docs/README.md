@@ -18,7 +18,6 @@ Este repositório é o **overview do usuário no GitHub** de Douglas Matos da Si
 | [specs/spec-template.md](specs/spec-template.md) | Template para novos entregáveis estruturados |
 | [context/profile.md](context/profile.md) | Contexto sobre o Douglas e o propósito do perfil (fonte de verdade para a cópia) |
 | [references/profile-readme-inspiration.md](references/profile-readme-inspiration.md) | Coletânea de overview pages de perfil GitHub bonitas (inspiração de design, com links) |
-| [proposals/README.md](proposals/README.md) | Novas versões do README a partir das referências (3 variantes + matriz de cruzamento) |
 
 ## Como usar este repositório
 
