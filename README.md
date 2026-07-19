@@ -358,7 +358,7 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
   </a>
   &nbsp;
   <a href="https://web.whatsapp.com/send?phone=5521994642132">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=whatsapp&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=whatsapp&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=whatsapp&theme=light" alt="WhatsApp" /></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/whatsapp/25D366" /><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/whatsapp/25D366" /><img height="44" src="https://cdn.simpleicons.org/whatsapp/25D366" alt="WhatsApp" /></picture>
   </a>
   &nbsp;
   <a href="https://twitter.com/devdouglasmatos">
@@ -366,7 +366,7 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
   </a>
   &nbsp;
   <a href="https://www.facebook.com/devdouglasmatos/">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=facebook&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=facebook&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=facebook&theme=light" alt="Facebook" /></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/facebook/1877F2" /><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/facebook/1877F2" /><img height="44" src="https://cdn.simpleicons.org/facebook/1877F2" alt="Facebook" /></picture>
   </a>
   &nbsp;
   <a href="https://discordapp.com/users/douglasmatosdev#8237">
@@ -374,7 +374,7 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
   </a>
   &nbsp;
   <a href="https://t.me/+5521994642132">
-    <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=telegram&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=telegram&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=telegram&theme=light" alt="Telegram" /></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/telegram/26A5E4" /><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/telegram/26A5E4" /><img height="44" src="https://cdn.simpleicons.org/telegram/26A5E4" alt="Telegram" /></picture>
   </a>
 </p>
 
