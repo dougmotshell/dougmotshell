@@ -37,7 +37,7 @@ const douglas = {
   location: "Brazil 🇧🇷",
   role: "Software Engineer | Software Developer | Vibe Coder Fixer",
   currently: {
-    working: "Software development",
+    working: ["AI-powered products", "Agentic workflows", "PWAs"],
     learning: ["Java", "AI/ML", "MCP", "AI Agents"],
   },
   passions: ["Algorithms", "Clean Code", "UX/UI", "Open Source"],
@@ -46,6 +46,52 @@ const douglas = {
 ```
 
 <br clear="right"/>
+
+---
+
+<!-- Featured Projects -->
+<div align="center">
+
+### 🔭 Featured Projects
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**📚 [Librosistemo](https://github.com/dougmotshell/librosistemo)**
+
+Book lending management system built with **Next.js + TypeScript**, backed by the Google Sheets API and covered by a full **Jest / Testing Library** suite with coverage reporting.
+
+</td>
+<td width="50%" valign="top">
+
+**🌐 [Personal Website](https://douglasmatosdasilva.com.br)** · [source](https://github.com/dougmotshell/douglasmatosdasilva)
+
+Bilingual portfolio and technical blog written with **Next.js**, Contentlayer and **MDX**.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**📻 [Rio de Janeiro Radio Player](https://radio-rio-de-janeiro.vercel.app)** · [source](https://github.com/dougmotshell/radio-rio-de-janeiro-player)
+
+Lightweight web player that streams radio stations from Rio de Janeiro.
+
+</td>
+<td width="50%" valign="top">
+
+**🖼️ [Social Image Downloader](https://social-img-downloader.vercel.app)** · [source](https://github.com/dougmotshell/social-img-downloader)
+
+**TypeScript** tool to grab images and thumbnails from social media links.
+
+</td>
+</tr>
+</table>
+
+> 🚧 **Also building (private, in progress):** AI-powered Telegram bots with LLM vision & voice — Groq (Llama 4 Scout + Whisper) and OpenAI — wired to Google Sheets, plus offline-first study PWAs driven by agentic, ticket-based workflows with CI/CD, CodeQL & Semgrep security scanning.
 
 ---
 
