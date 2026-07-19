@@ -27,9 +27,11 @@
 ---
 
 <!-- About Me -->
-<img align="right" alt="coding gif" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
-
 ### 🚀 About Me
+
+<table>
+<tr>
+<td width="60%" valign="top">
 
 ```typescript
 const douglas = {
@@ -45,7 +47,14 @@ const douglas = {
 };
 ```
 
-<br clear="right"/>
+</td>
+<td width="40%" valign="middle" align="center">
+
+<img alt="coding animation" width="100%" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" />
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -60,38 +69,133 @@ const douglas = {
 <tr>
 <td width="50%" valign="top">
 
-**📚 [Librosistemo](https://github.com/dougmotshell/librosistemo)**
+#### 📚 Librosistemo
 
-Book lending management system built with **Next.js + TypeScript**, backed by the Google Sheets API and covered by a full **Jest / Testing Library** suite with coverage reporting.
+Book lending management system backed by the Google Sheets API, with a full unit-test suite and coverage reporting.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
+
+[![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/librosistemo)
 
 </td>
 <td width="50%" valign="top">
 
-**🌐 [Personal Website](https://douglasmatosdasilva.com.br)** · [source](https://github.com/dougmotshell/douglasmatosdasilva)
+#### 🌐 Personal Website
 
-Bilingual portfolio and technical blog written with **Next.js**, Contentlayer and **MDX**.
+Bilingual portfolio and technical blog — content authored in MDX, statically rendered.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![MDX](https://img.shields.io/badge/MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://douglasmatosdasilva.com.br)
+[![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/douglasmatosdasilva)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**📻 [Rio de Janeiro Radio Player](https://radio-rio-de-janeiro.vercel.app)** · [source](https://github.com/dougmotshell/radio-rio-de-janeiro-player)
+#### 📻 Rio de Janeiro Radio Player
 
-Lightweight web player that streams radio stations from Rio de Janeiro.
+Lightweight web player that streams radio stations from Rio de Janeiro, right in the browser.
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://radio-rio-de-janeiro.vercel.app)
+[![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/radio-rio-de-janeiro-player)
 
 </td>
 <td width="50%" valign="top">
 
-**🖼️ [Social Image Downloader](https://social-img-downloader.vercel.app)** · [source](https://github.com/dougmotshell/social-img-downloader)
+#### 🖼️ Social Image Downloader
 
-**TypeScript** tool to grab images and thumbnails from social media links.
+Grab full-size images and thumbnails straight from social media links.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+
+[![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/social-img-downloader)
 
 </td>
 </tr>
 </table>
 
-> 🚧 **Also building (private, in progress):** AI-powered Telegram bots with LLM vision & voice — Groq (Llama 4 Scout + Whisper) and OpenAI — wired to Google Sheets, plus offline-first study PWAs driven by agentic, ticket-based workflows with CI/CD, CodeQL & Semgrep security scanning.
+<div align="center">
+
+### 🚧 Also Building — Private, In Progress
+
+</div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤖 LAMAR — AI Inventory Bot
+
+Manage stock over Telegram: LLMs read products from **photos** and **voice notes** and sync them to Google Sheets.
+
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+
+![vision + voice](https://img.shields.io/badge/LLM-vision%20%2B%20voice-8957e5?style=flat-square)
+![security](https://img.shields.io/badge/CI-CodeQL%20%2B%20Semgrep-1f6feb?style=flat-square)
+![private](https://img.shields.io/badge/-private-6e7681?style=flat-square&logo=github&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### 📖 Lernema — Study Planner
+
+Offline-first PWA that puts **spaced repetition** on your real calendar. Built with an agentic, ticket-based workflow.
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=hono&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://lernema.vercel.app)
+![tickets](https://img.shields.io/badge/delivery%20tickets-14-1f6feb?style=flat-square)
+![private](https://img.shields.io/badge/-private-6e7681?style=flat-square&logo=github&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏭 SCreator — Bot SaaS
+
+Multi-tenant platform derived from LAMAR: any client spins up their **own** Telegram inventory bot plus a full web panel.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![Google Sheets](https://img.shields.io/badge/Sheets-34A853?style=flat-square&logo=googlesheets&logoColor=white)
+
+![multi-tenant](https://img.shields.io/badge/architecture-multi--tenant-8957e5?style=flat-square)
+![private](https://img.shields.io/badge/-private-6e7681?style=flat-square&logo=github&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧩 How I Build
+
+Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** architecture, ticket-driven delivery and automated **CI/CD** with security scanning.
+
+![Spec-driven](https://img.shields.io/badge/spec--driven-24292f?style=flat-square)
+![ADR](https://img.shields.io/badge/ADR-24292f?style=flat-square)
+![C4 model](https://img.shields.io/badge/C4%20model-24292f?style=flat-square)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-1f6feb?style=flat-square&logo=githubactions&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -146,7 +250,10 @@ Lightweight web player that streams radio stations from Rio de Janeiro.
 
 ### 🛠️ Tech Stack & Tools
 
-**Frontend**
+<table>
+<tr>
+<td align="right" width="150"><b>🎨 Frontend</b></td>
+<td align="left">
 
 <a href="https://skillicons.dev">
   <picture>
@@ -155,11 +262,14 @@ Lightweight web player that streams radio stations from Rio de Janeiro.
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,styledcomponents,figma&theme=light" alt="Frontend skills" />
   </picture>
 </a>
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=flat-square&logo=redux&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-433e38?style=flat-square&logo=react&logoColor=white)
 
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=react&logoColor=white)
-
-**Backend & Infra**
+</td>
+</tr>
+<tr>
+<td align="right"><b>⚙️ Backend &amp; Infra</b></td>
+<td align="left">
 
 <a href="https://skillicons.dev">
   <picture>
@@ -169,14 +279,23 @@ Lightweight web player that streams radio stations from Rio de Janeiro.
   </picture>
 </a>
 
-**AI & Machine Learning**
+</td>
+</tr>
+<tr>
+<td align="right"><b>🤖 AI &amp; ML</b></td>
+<td align="left">
 
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-FF6F00?style=for-the-badge&logo=probot&logoColor=white)
-![AI Skills](https://img.shields.io/badge/AI%20Skills-0078D4?style=for-the-badge&logo=azuredevops&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![AI Agents](https://img.shields.io/badge/AI%20Agents-FF6F00?style=flat-square&logo=probot&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-0078D4?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 
-**Tools & Others**
+</td>
+</tr>
+<tr>
+<td align="right"><b>🧰 Tools</b></td>
+<td align="left">
 
 <a href="https://skillicons.dev">
   <picture>
@@ -185,6 +304,10 @@ Lightweight web player that streams radio stations from Rio de Janeiro.
     <img src="https://skillicons.dev/icons?i=git,vscode,idea,webpack,babel,jest&theme=light" alt="Tooling skills" />
   </picture>
 </a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -227,13 +350,20 @@ Lightweight web player that streams radio stations from Rio de Janeiro.
 
 ### 🌐 Connect with me
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:douglasmatosdev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devdouglasmatos/)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://web.whatsapp.com/send?phone=5521994642132)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/devdouglasmatos)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/devdouglasmatos/)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/douglasmatosdev#8237)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+5521994642132)
+<table>
+<tr>
+<td align="center"><a href="mailto:douglasmatosdev@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a></td>
+<td align="center"><a href="https://www.linkedin.com/in/devdouglasmatos/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a></td>
+<td align="center"><a href="https://web.whatsapp.com/send?phone=5521994642132"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a></td>
+<td align="center"><a href="https://twitter.com/devdouglasmatos"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://www.facebook.com/devdouglasmatos/"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a></td>
+<td align="center"><a href="https://discordapp.com/users/douglasmatosdev#8237"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a></td>
+<td align="center"><a href="https://t.me/+5521994642132"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a></td>
+<td align="center"><a href="https://douglasmatosdasilva.com.br"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a></td>
+</tr>
+</table>
 
 </div>
 

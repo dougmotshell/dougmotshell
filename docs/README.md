@@ -17,6 +17,7 @@ Este repositório é o **overview do usuário no GitHub** de Douglas Matos da Si
 | [specs/spec-profile-readme.md](specs/spec-profile-readme.md) | SPEC-001 — o README de perfil (objetivo, critérios, seções) |
 | [specs/spec-template.md](specs/spec-template.md) | Template para novos entregáveis estruturados |
 | [context/profile.md](context/profile.md) | Contexto sobre o Douglas e o propósito do perfil (fonte de verdade para a cópia) |
+| [references/profile-readme-inspiration.md](references/profile-readme-inspiration.md) | Coletânea de overview pages de perfil GitHub bonitas (inspiração de design, com links) |
 
 ## Como usar este repositório
 
