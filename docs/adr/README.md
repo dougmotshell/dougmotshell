@@ -23,3 +23,4 @@ Registros de decisão no formato de [Architecture Decision Records](https://adr.
 | [0002](0002-auto-generated-language-badges.md) | Tabela de linguagens gerada por CI entre marcadores | aceito |
 | [0003](0003-light-dark-theme-parity.md) | Paridade de temas claro/escuro em toda imagem via `<picture>` | aceito |
 | [0004](0004-zero-cost-external-services.md) | Somente serviços externos gratuitos | aceito |
+| [0005](0005-resilient-output-branch-publishing.md) | Publicação resiliente da branch `output` (fallback por artefato) | aceito |

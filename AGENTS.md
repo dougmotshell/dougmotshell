@@ -38,14 +38,15 @@ Este projeto é mantido com metodologias de engenharia de software (C4, ADRs, sp
 4. **Serviços externos são gratuitos e substituíveis** (ADR-0004): ao adicionar um badge/gerador, preferir serviços consolidados e gratuitos; registrar o serviço e o motivo. Se um serviço morrer, propor substituto via ticket (não deixar imagem quebrada no perfil).
 5. **Decisões estruturais viram ADR**: mudar o formato da seção de linguagens, trocar de serviço de stats, mudar a estratégia de deploy do `output` — tudo isso é um novo ADR (`docs/adr/`), nunca uma mudança silenciosa que contradiz um ADR existente.
 6. **Novo entregável estruturado = nova spec**: copie `docs/specs/spec-template.md`. Hoje o entregável é o README de perfil (SPEC-001).
-7. **Segredos**: o único segredo é o `GITHUB_TOKEN` das Actions — sempre via `secrets`/env, nunca hardcoded. O `generate_languages.py` lê `GITHUB_TOKEN` e `GITHUB_USERNAME` do ambiente.
+7. **Segredos**: `GITHUB_TOKEN` (fornecido pelas Actions) e o opcional `TROPHY_TOKEN` (PAT para a geração de troféus) — sempre via `secrets`/env, nunca hardcoded. O `generate_languages.py` lê `GITHUB_TOKEN` e `GITHUB_USERNAME` do ambiente. Atenção: o `GITHUB_TOKEN` só enxerga **este** repositório; qualquer leitura do perfil inteiro (stars/repos alheios) exige PAT — ver [L-001](agents/memory/lessons.md).
 
 ## Estado atual
 
 - **README de perfil ativo** com as seções: header wave, typing SVG, profile views/followers, About Me, Featured Projects, GitHub Stats, Streak, Trophies, Tech Stack, Contribution Activity, Snake, Connect, **Most Used Languages (auto)**, footer.
-- **Automação diária** (cron `0 0,12 * * *` + `workflow_dispatch`): `update-languages.yml` regenera a tabela de linguagens; `main.yml` regenera snake + troféus na branch `output`.
+- **Automação diária** (cron `0 0,12 * * *` + `workflow_dispatch`): `update-languages.yml` regenera a tabela de linguagens; `main.yml` regenera snake + troféus na branch `output`, com fallback por artefato ([ADR-0005](docs/adr/0005-resilient-output-branch-publishing.md)).
+- **Troféus degradados**: sem o segredo `TROPHY_TOKEN` a geração falha e o CI republica o `trophies.svg` anterior (o último gerado é de 2026-07-22). O pipeline fica verde, mas emite `::warning::`.
 - **Spec ativa**: [SPEC-001 — Perfil README](docs/specs/spec-profile-readme.md).
-- **ADRs**: [0001](docs/adr/0001-github-profile-readme-as-product.md) (README como produto), [0002](docs/adr/0002-auto-generated-language-badges.md) (linguagens automáticas), [0003](docs/adr/0003-light-dark-theme-parity.md) (paridade de temas), [0004](docs/adr/0004-zero-cost-external-services.md) (custo zero).
+- **ADRs**: [0001](docs/adr/0001-github-profile-readme-as-product.md) (README como produto), [0002](docs/adr/0002-auto-generated-language-badges.md) (linguagens automáticas), [0003](docs/adr/0003-light-dark-theme-parity.md) (paridade de temas), [0004](docs/adr/0004-zero-cost-external-services.md) (custo zero), [0005](docs/adr/0005-resilient-output-branch-publishing.md) (publicação resiliente do `output`).
 
 ## Sistema de agentes de desenvolvimento (`agents/` + `tickets/` + skills)
 
