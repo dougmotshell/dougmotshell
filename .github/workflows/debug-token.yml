@@ -1,0 +1,17 @@
+name: Debug Token Scope
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe GraphQL user query with GITHUB_TOKEN
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d '{"query":"query { user(login: \"dougmotshell\") { createdAt contributionsCollection { totalCommitContributions restrictedContributionsCount totalPullRequestReviewContributions } organizations(first:1){totalCount} followers(first:1){totalCount} repositories(first:5, ownerAffiliations: OWNER){totalCount} } }"}' \
+            https://api.github.com/graphql
