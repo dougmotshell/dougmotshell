@@ -67,4 +67,16 @@ Aprovado. Handoff → qa-validator.
 
 ## 2026-08-15 · ACTION · qa-validator
 
-Validação end-to-end pendente da execução real do workflow corrigido na branch `main`.
+Validação end-to-end. `Generate Datas` disparado via `workflow_dispatch` no branch do ticket
+(run 31903035597, 19s):
+
+| Critério | Resultado |
+|---|---|
+| Job conclui com sucesso sem `TROPHY_TOKEN` | ✅ verde |
+| Falha do gerador continua visível | ✅ `::warning::` na aba Actions |
+| Branch `output` republicada | ✅ commit em 2026-08-15T19:07:57Z (antes: 2026-07-22) |
+| Três arquivos presentes | ✅ snake claro e escuro (34646 B, regenerados de 33826 B) + `trophies.svg` (66481 B, preservado) |
+| Imagens do README | ✅ nenhuma URL da branch `output` ficou sem arquivo |
+
+Critérios 1–5 aprovados. Critério 6 depende do segredo `TROPHY_TOKEN`, que só o Douglas pode
+criar — ticket fica `blocked-on-douglas` para esse item, com o pipeline já verde.

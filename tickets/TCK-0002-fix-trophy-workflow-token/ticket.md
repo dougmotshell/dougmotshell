@@ -94,6 +94,10 @@ gh secret set TROPHY_TOKEN --repo dougmotshell/dougmotshell
 - Arquivos-alvo: `.github/workflows/main.yml`
 - Runs: [31884406883](https://github.com/dougmotshell/dougmotshell/actions/runs/31884406883) (falha original), 31902919951 (diagnóstico)
 
-## Resolução (preenchido ao fechar)
+## Resolução
 
-- Commits: · Evidência final (preview/run): · Docs atualizados:
+- Commits: `0b74c32` (correção do workflow + ticket)
+- Evidência final: run [31903035597](https://github.com/dougmotshell/dougmotshell/actions/runs/31903035597)
+  verde, com o warning do fallback visível; branch `output` republicada em 2026-08-15 com os três
+  arquivos (snake claro/escuro regenerados, `trophies.svg` preservado).
+- Pendência: criar o segredo `TROPHY_TOKEN` para voltar a gerar troféus novos (critério 6).
