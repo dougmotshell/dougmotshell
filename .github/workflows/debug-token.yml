@@ -1,7 +1,9 @@
 name: Debug Token Scope
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - tck-0002-fix-trophy-workflow-token
 
 jobs:
   probe:
