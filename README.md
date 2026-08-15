@@ -303,16 +303,16 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
   <tr>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" />
-        <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" alt="GitHub stats" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sage-seven.vercel.app/api?username=dougmotshell&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&border_color=30363d&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sage-seven.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" />
+        <img height="180em" src="https://github-readme-stats-sage-seven.vercel.app/api?username=dougmotshell&show_icons=true&theme=default&include_all_commits=true&count_private=true&border_color=d0d7de&bg_color=ffffff&title_color=0969da&icon_color=0969da&text_color=24292f&cache_seconds=1800" alt="GitHub stats" />
       </picture>
     </td>
     <td>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
-        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" />
-        <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" alt="Top languages" />
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sage-seven.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=github_dark&border_color=30363d&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&cache_seconds=1800" />
+        <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sage-seven.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" />
+        <img height="180em" src="https://github-readme-stats-sage-seven.vercel.app/api/top-langs/?username=dougmotshell&layout=compact&langs_count=8&theme=default&border_color=d0d7de&bg_color=ffffff&title_color=0969da&text_color=24292f&cache_seconds=1800" alt="Top languages" />
       </picture>
     </td>
   </tr>
