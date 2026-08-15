@@ -1,7 +1,7 @@
 # TCK-0002: pipeline "Generate Datas" falhando na geração dos troféus
 
-- **status:** in-review
-- **owner:** automation-engineer
+- **status:** done (critério 6 pendente do Douglas)
+- **owner:** qa-validator
 - **created:** 2026-08-15 · **by:** Douglas
 - **type:** bug
 - **size:** P
@@ -96,8 +96,12 @@ gh secret set TROPHY_TOKEN --repo dougmotshell/dougmotshell
 
 ## Resolução
 
-- Commits: `0b74c32` (correção do workflow + ticket)
-- Evidência final: run [31903035597](https://github.com/dougmotshell/dougmotshell/actions/runs/31903035597)
-  verde, com o warning do fallback visível; branch `output` republicada em 2026-08-15 com os três
-  arquivos (snake claro/escuro regenerados, `trophies.svg` preservado).
+- Commits: `0b74c32` (correção do workflow), `f1fb9e6` (QA), merge [PR #2](https://github.com/dougmotshell/dougmotshell/pull/2) em `ef2cead`.
+- Evidência final: run [31903263793](https://github.com/dougmotshell/dougmotshell/actions/runs/31903263793)
+  na branch `main` — verde em 20s, com o warning do fallback visível; branch `output` republicada
+  em 2026-08-15 com os três arquivos (snake claro/escuro regenerados, `trophies.svg` preservado).
+  Validação prévia no branch do ticket: run 31903035597.
+- Docs atualizados: [ADR-0005](../../docs/adr/0005-resilient-output-branch-publishing.md) (publicação
+  resiliente do `output`), [lessons L-001 e L-002](../../agents/memory/lessons.md),
+  [contexto de automação](../../agents/memory/context/automation.md), `AGENTS.md` (segredos e estado atual).
 - Pendência: criar o segredo `TROPHY_TOKEN` para voltar a gerar troféus novos (critério 6).

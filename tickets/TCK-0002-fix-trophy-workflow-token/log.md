@@ -80,3 +80,28 @@ Validação end-to-end. `Generate Datas` disparado via `workflow_dispatch` no br
 
 Critérios 1–5 aprovados. Critério 6 depende do segredo `TROPHY_TOKEN`, que só o Douglas pode
 criar — ticket fica `blocked-on-douglas` para esse item, com o pipeline já verde.
+
+## 2026-08-15 · ACTION · qa-validator
+
+Douglas mergeou o [PR #2](https://github.com/dougmotshell/dougmotshell/pull/2) (`ef2cead`).
+Revalidação na branch `main` — run [31903263793](https://github.com/dougmotshell/dougmotshell/actions/runs/31903263793):
+verde em 20s, warning do fallback presente, branch `output` republicada. O agendamento
+(cron `0 0,12 * * *`) roda na `main`, então a próxima execução automática já sai verde.
+
+Ticket **done** para os critérios 1–5. Handoff → docs-writer.
+
+## 2026-08-15 · ACTION · docs-writer
+
+Documentação atualizada após a entrega:
+
+| Documento | Mudança |
+|---|---|
+| [ADR-0005](../../docs/adr/0005-resilient-output-branch-publishing.md) | novo — publicação resiliente da branch `output` (continue-on-error + fallback por artefato + warning visível) |
+| [docs/adr/README.md](../../docs/adr/README.md) | índice com o ADR-0005 |
+| [lessons.md](../../agents/memory/lessons.md) | L-001 (escopo do `GITHUB_TOKEN`) e L-002 (CI vermelho despercebido por três semanas) |
+| [context/automation.md](../../agents/memory/context/automation.md) | `build_dir` substitui a branch inteira; limite do `GITHUB_TOKEN`; segredo `TROPHY_TOKEN` |
+| [AGENTS.md](../../AGENTS.md) | regra 7 (segredos), estado atual, índice de ADRs |
+
+Pendência aberta e **não** endereçada por este ticket: a seção de troféus do README usa `<img>`
+simples, sem o `<picture>` claro/escuro exigido pelo [ADR-0003](../../docs/adr/0003-light-dark-theme-parity.md).
+Merece ticket próprio (readme-designer).
