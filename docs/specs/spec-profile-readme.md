@@ -30,7 +30,9 @@ O `README.md` renderizado em **https://github.com/dougmotshell** faz um visitant
 
 ## 4. Estrutura / seções
 
-Ordem de renderização: header wave → typing SVG → profile views/followers → **About Me** → **Featured Projects** → GitHub Stats → Streak → Trophies → **Tech Stack & Tools** → Contribution Activity → Snake → **Connect with me** → **Most Used Languages** (auto) → footer wave.
+Ordem de renderização: header wave → typing SVG → profile views/followers → **About Me** → **What I Build at Work** → **Featured Projects** → GitHub Stats → Streak → Trophies → **Tech Stack & Tools** → Contribution Activity → Snake → **Connect with me** → **Most Used Languages** (auto) → footer wave.
+
+A seção **What I Build at Work** é a evidência profissional do perfil e está sujeita às **regras de honestidade** de [context/profile.md](../context/profile.md): sem nível de senioridade, sem dado interno da empresa, cloud/Kubernetes apenas como estudo.
 
 Contrato da seção automática: tabela reescrita entre `<!-- LANGUAGES-START -->` e `<!-- LANGUAGES-END -->` por `generate_languages.py` — não editar à mão.
 
@@ -52,3 +54,4 @@ Contrato da seção automática: tabela reescrita entre `<!-- LANGUAGES-START --
 | Data | Observação | Mudança |
 |---|---|---|
 | 2026-07-19 | Spec criada junto com a infraestrutura de IA do repo | Estado inicial documentado a partir do README existente |
+| 2026-08-15 | O README contava os projetos pessoais, mas não a carreira — um visitante não inferia 6+ anos de experiência nem o domínio de atuação ([TCK-0001](../../tickets/TCK-0001-profile-content-refresh/ticket.md)) | Nova seção **What I Build at Work**; About Me com função, domínio e formação; stack alinhado ao real (Kotlin, Spring Boot, PostgreSQL, event streaming, Playwright/Cypress); cloud movida para "Exploring"; LinkedIn e site pessoal corrigidos; **regras de honestidade** formalizadas em `context/profile.md` |
