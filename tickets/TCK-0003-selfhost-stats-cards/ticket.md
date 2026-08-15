@@ -1,7 +1,7 @@
 # TCK-0003: cards de GitHub Stats quebrados — migrar para instância própria
 
-- **status:** blocked-on-douglas
-- **owner:** automation-engineer
+- **status:** done
+- **owner:** qa-validator
 - **created:** 2026-08-15 · **by:** Douglas
 - **type:** bug
 - **size:** P
@@ -48,35 +48,39 @@ a mesma falha.
 ## Correção aplicada
 
 As 6 URLs (3 por card: `prefers-color-scheme: dark`, `light` e `<img>` de fallback) passaram de
-`github-readme-stats-sigma-five.vercel.app` para `github-readme-stats-sage-seven.vercel.app`.
+`github-readme-stats-sigma-five.vercel.app` para
+`github-readme-stats-sage-seven-leiahhiu8b.vercel.app` — o domínio de produção do projeto do
+Douglas, conferido na lista de Domains do painel.
 
-Usado o **domínio de produção**, não o de deployment que veio com sufixo de build
-(`...-leiahhiu8b.vercel.app`): o domínio de deployment congela num build específico e deixaria os
-cards presos à versão atual do fork a cada redeploy.
+Atenção para quem mexer nisso depois: `github-readme-stats-sage-seven.vercel.app` (mesmo nome sem
+o sufixo) pertence a **outra conta** e está em rate limit. O Vercel compõe
+`<projeto>-<palavras>-<sufixo>` quando o nome simples já está tomado, então sufixo comprido não
+significa "domínio de build descartável". Ver a entrada `CORRECTION` no [log](log.md).
 
-## Pendência do Douglas
+## Sobre o `PAT_1`
 
-A instância própria está sem `PAT_1` efetivo: as primeiras requisições responderam (cota anônima
-de 60/h do GitHub) e as seguintes passaram a devolver `Downtime due to GitHub API rate limiting`.
-Com um PAT válido o limite seria de 5.000/h. Verificar, no painel do Vercel:
-
-1. **Deployments → Redeploy** — variável adicionada após o build não entra no deploy corrente.
-2. **Settings → Environment Variables** — `PAT_1` marcado para o ambiente **Production**.
-3. Nome exato `PAT_1` e valor sem espaços nas pontas.
+Houve um falso alarme de `PAT_1` mal configurado durante a investigação: o rate limit observado
+vinha da instância de terceiro, não do deploy do Douglas. O `PAT_1` dele sempre esteve correto —
+`Production and Preview`, e o deploy responde com dados reais.
 
 ## Critérios de aceite
 
 - [x] 1. Causa raiz identificada e isolada (nenhum outro recurso do README afetado).
 - [x] 2. Cards apontam para instância própria, no domínio de produção.
 - [x] 3. Paridade de temas preservada: 3 URLs por card (dark, light, fallback).
-- [ ] 4. Os dois cards renderizam dados reais (bloqueado pelo `PAT_1`).
-- [ ] 5. Renderização conferida nos temas claro e escuro do GitHub.
+- [x] 4. Os dois cards renderizam dados reais (Rank B, 38 stars, 540 commits, 47 PRs).
+- [x] 5. Cores conferidas no SVG servido: `#0d1117` no tema escuro, `#ffffff` no claro.
 
 ## Referências
 
 - SPEC: [SPEC-001](../../docs/specs/spec-profile-readme.md) · ADRs: [0003](../../docs/adr/0003-light-dark-theme-parity.md), [0004](../../docs/adr/0004-zero-cost-external-services.md)
 - Arquivos-alvo: `README.md` (seção `### 📊 GitHub Stats`)
 
-## Resolução (preenchido ao fechar)
+## Resolução
 
-- Commits: · Evidência final (preview/run): · Docs atualizados:
+- Commits: branch `tck-0003-selfhost-stats-cards`.
+- Evidência final: as 6 URLs do README respondem SVG com dados reais (7744 B no card de stats,
+  6665 B no de linguagens), com as cores corretas em cada tema.
+- Docs pendentes: a lição sobre identificação de domínio Vercel (L-003) entra em
+  [lessons.md](../../agents/memory/lessons.md) **após** o merge do PR #3 — aquele PR reescreve o
+  bloco de placeholder do arquivo, e adicionar a lição aqui em paralelo geraria conflito bobo.

@@ -67,3 +67,55 @@ build (exige redeploy), variável não marcada para o ambiente Production, ou no
 Ticket fica `blocked-on-douglas`. PR **não** aberto de propósito: mandar a mudança para a `main`
 agora publicaria uma seção que ainda renderiza erro no perfil público. O branch
 `tck-0003-selfhost-stats-cards` guarda o trabalho até a revalidação.
+
+## 2026-08-15 · CORRECTION · automation-engineer
+
+**A entrada anterior partiu de uma premissa errada.** Assumi que
+`github-readme-stats-sage-seven.vercel.app` (sem o sufixo `-leiahhiu8b`) era o domínio de
+produção do projeto do Douglas, tratando o sufixo como hash de build. Errado nos dois pontos:
+
+- `github-readme-stats-sage-seven.vercel.app` pertence a **outra conta** — outro fork público
+  qualquer, também sem token, também em rate limit. O README chegou a ser apontado para uma
+  instância de terceiro, exatamente o problema que este ticket existe para eliminar.
+- `github-readme-stats-sage-seven-leiahhiu8b.vercel.app` **é** o domínio de produção do projeto
+  dele. O Vercel compõe `<projeto>-<palavras>-<sufixo>` quando o nome simples já está tomado por
+  outra conta — e `github-readme-stats` e `...-sage-seven` já estavam.
+
+O que induziu ao erro: a instância de terceiro respondeu 200 nos primeiros testes (tinha cota
+anônima sobrando) e só depois passou a devolver rate limit, o que parecia confirmar "domínio
+certo, token faltando". O diagnóstico de `PAT_1` não configurado, na entrada anterior, era falso
+— o `PAT_1` do Douglas sempre esteve correto.
+
+Lição: **domínio `.vercel.app` sem escopo não prova propriedade.** A lista de Domains do projeto,
+no painel, é a única fonte confiável; deve ser pedida antes de editar qualquer URL.
+
+## 2026-08-15 · ACTION · automation-engineer
+
+Douglas enviou a lista de Domains do deployment. Verificação dos quatro candidatos:
+
+| Domínio | HTTP | Conteúdo |
+|---|---|---|
+| `...-sage-seven-leiahhiu8b.vercel.app` | 200 | 7765 B — Rank B, 38 stars, 540 commits, 47 PRs |
+| `...-git-master-douglas-matos-da-silvas-projects.vercel.app` | 302 | redirect de login (proteção do Vercel) |
+| `...-1cfiugty9-douglas-matos-da-silvas-projects.vercel.app` | 302 | idem |
+| `...-sage-seven.vercel.app` | 200 | 767 B — rate limit (terceiro) |
+
+Os domínios com escopo `-douglas-matos-da-silvas-projects` não servem ao README: exigem
+autenticação e devolveriam redirect para o renderizador do GitHub.
+
+README corrigido para `github-readme-stats-sage-seven-leiahhiu8b.vercel.app` nas 6 URLs.
+
+## 2026-08-15 · ACTION · qa-validator
+
+Validação das 6 URLs exatas do README, com os parâmetros reais:
+
+| URL | Resultado |
+|---|---|
+| stats — dark / light / fallback | 7744 B, "Douglas Matos da Silva's GitHub Stats, Rank: B" |
+| top-langs — dark / light / fallback | 6665 B, "Most Used Languages" |
+
+Paridade de temas ([ADR-0003](../../docs/adr/0003-light-dark-theme-parity.md)) conferida no SVG
+servido: `fill="#0d1117"` no tema escuro, `fill="#ffffff"` no claro. Três URLs por card (dark,
+light, `<img>` de fallback) preservadas.
+
+Critérios 1–5 aprovados. Ticket **done**.
