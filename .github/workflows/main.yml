@@ -5,6 +5,9 @@ on:
     - cron: "0 0,12 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Jobs to update datas
@@ -26,14 +29,28 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Trophies SVG (generated locally, no external service needed)
+      # Trophies SVG (generated locally, no external service needed).
+      # Requires TROPHY_TOKEN (PAT with public_repo + read:user): the default
+      # GITHUB_TOKEN cannot read `stargazers` of other repositories owned by the
+      # user, which makes the trophy generator fail with exit code 3.
       - name: Generate trophy SVG
+        id: trophy
+        continue-on-error: true
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: dougmotshell
           file: dist/trophies.svg
           theme: darkhub
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TROPHY_TOKEN || secrets.GITHUB_TOKEN }}
+
+      # Keep the previously published trophies.svg so the deploy below never
+      # publishes a dist without it (which would break the README image).
+      - name: Reuse published trophies on generation failure
+        if: steps.trophy.outcome != 'success'
+        run: |
+          echo "::warning::Trophy generation failed. Reusing the trophies.svg already published on the output branch. Set the TROPHY_TOKEN secret to generate fresh trophies."
+          curl -fsSL -o dist/trophies.svg \
+            "https://raw.githubusercontent.com/${{ github.repository }}/output/trophies.svg"
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
@@ -41,4 +58,3 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
