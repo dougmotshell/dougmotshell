@@ -2,17 +2,17 @@
 
 <!-- Animated Header Wave -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=8b949e" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=475569" />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=SOFTWARE%20ENGINEER%20%7C%20SOFTWARE%20DEVELOPER&descAlignY=58&descColor=475569" alt="Douglas Matos header" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20REAL-TIME%20DATA%20%26%20AI&descAlignY=58&descColor=8b949e" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20REAL-TIME%20DATA%20%26%20AI&descAlignY=58&descColor=475569" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:f8fafc,50:e2e8f0,100:cbd5e1&height=200&section=header&text=Douglas%20Matos&fontSize=60&fontColor=0f172a&animation=fadeIn&fontAlignY=38&desc=FULL%20STACK%20DEVELOPER%20%7C%20REAL-TIME%20DATA%20%26%20AI&descAlignY=58&descColor=475569" alt="Douglas Matos header" />
 </picture>
 
 <!-- Typing Animation -->
 <a href="https://github.com/dougmotshell">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" />
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" />
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer;JavaScript+%7C+Java+%7C+Python+%7C+AI+%7C+Linux+Enthusiast;Always+learning+new+things...;Let%27s+build+something+awesome!" alt="Typing SVG" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer+%40+Intelie;Java+%7C+Kotlin+%7C+Spring+%7C+TypeScript+%7C+React;Real-time+data+for+Oil+%26+Gas+operations;AI-augmented+engineering%3A+RAG+%7C+MCP+%7C+Agents;Let%27s+build+something+awesome!" />
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer+%40+Intelie;Java+%7C+Kotlin+%7C+Spring+%7C+TypeScript+%7C+React;Real-time+data+for+Oil+%26+Gas+operations;AI-augmented+engineering%3A+RAG+%7C+MCP+%7C+Agents;Let%27s+build+something+awesome!" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=650&lines=Hey+there!+I%27m+Douglas+%F0%9F%91%8B;Full+Stack+Developer+%40+Intelie;Java+%7C+Kotlin+%7C+Spring+%7C+TypeScript+%7C+React;Real-time+data+for+Oil+%26+Gas+operations;AI-augmented+engineering%3A+RAG+%7C+MCP+%7C+Agents;Let%27s+build+something+awesome!" alt="Typing SVG" />
   </picture>
 </a>
 
@@ -36,12 +36,18 @@
 ```typescript
 const douglas = {
   pronouns: "He/Him",
-  location: "Brazil 🇧🇷",
-  role: "Software Engineer | Software Developer | Vibe Coder Fixer",
-  currently: {
-    working: ["AI-powered products", "Agentic workflows", "PWAs"],
-    learning: ["Java", "AI/ML", "MCP", "AI Agents"],
+  location: "Rio de Janeiro, Brazil 🇧🇷",
+  role: "Full Stack Developer @ Intelie",
+  alsoAnswersTo: "Vibe Coder Fixer",
+  writingCodeSince: 2019,
+  domain: "Real-time telemetry for Oil & Gas",
+  stack: {
+    backend: ["Java", "Kotlin", "Spring Boot", "REST APIs"],
+    frontend: ["TypeScript", "React", "Next.js", "PWA"],
+    data: ["PostgreSQL", "MongoDB", "event streaming"],
+    ai: ["RAG", "MCP servers", "agentic workflows"],
   },
+  education: "BSc in Software Engineering, 2024",
   passions: ["Algorithms", "Clean Code", "UX/UI", "Open Source"],
   funFact: "I turn coffee ☕ into code",
 };
@@ -60,6 +66,78 @@ const douglas = {
 
 ---
 
+<!-- Work -->
+<div align="center">
+
+### 💼 What I Build at Work
+
+</div>
+
+Since 2020 I've been at **[Intelie](https://www.intelie.com/)**, on the Performance KPIs team for
+**Oil & Gas** operations — sensor data coming off drilling rigs that has to be *correct* and *fast*
+on the screen of the person running the operation.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛰️ Real-time telemetry
+
+Sensor streams turned into operational KPIs, and rig-state classification engines that run **live**
+and over **historical reprocessing** — same rules, both paths.
+
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![Event streaming](https://img.shields.io/badge/event%20streaming-8957e5?style=flat-square)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔌 APIs & distributed services
+
+REST APIs with role-based authorization and per-rig configuration, message-broker microservices,
+and analytics pipelines feeding BI dashboards.
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧪 Quality & production firefighting
+
+An E2E suite built from scratch (timezone and midnight-rollover edge cases), plus real production
+saves: an out-of-memory fix in a high-volume export pipeline and incident root-cause analysis.
+
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🤖 AI-augmented engineering
+
+My team's **RAG knowledge base** behind an **MCP server** that AI agents query, an AI patterns
+catalog, and AI-generated release notes wired into CI/CD.
+
+![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat-square&logo=probot&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-0078D4?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+> **How I take features:** end to end — refinement with domain experts → API design →
+> implementation → tests → docs. Named decision-maker on team ADRs and a recurring reviewer for
+> my teammates' code.
+
+---
+
 <!-- Featured Projects -->
 <div align="center">
 
@@ -68,6 +146,26 @@ const douglas = {
 </div>
 
 <table>
+<tr>
+<td colspan="2" valign="top">
+
+#### ➗ Mathematics Studies
+
+Free and open mathematics platform — from early childhood to research level — fully bilingual
+(pt-BR / en-US), with interactive exercises, diagnostic feedback and progress kept **on your own
+device**. No account, no backend. Content-first, spec- and ADR-driven, published on every merge.
+
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![KaTeX](https://img.shields.io/badge/KaTeX-329894?style=flat-square&logo=latex&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![work in progress](https://img.shields.io/badge/status-work%20in%20progress-d29922?style=flat-square)
+
+[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://mathematics-studies.vercel.app)
+[![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/mathematics-studies)
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -92,7 +190,7 @@ Bilingual portfolio and technical blog — content authored in MDX, statically r
 ![MDX](https://img.shields.io/badge/MDX-1B1F24?style=flat-square&logo=mdx&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://douglasmatosdasilva.com.br)
+[![Live](https://img.shields.io/badge/Live-1f883d?style=flat-square&logo=vercel&logoColor=white)](https://douglasmatosdasilva.vercel.app)
 [![Code](https://img.shields.io/badge/Source-24292f?style=flat-square&logo=github&logoColor=white)](https://github.com/dougmotshell/douglasmatosdasilva)
 
 </td>
@@ -271,26 +369,46 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 
 <a href="https://skillicons.dev">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=light" />
-    <img src="https://skillicons.dev/icons?i=nodejs,java,spring,python,mysql,mongodb,docker,aws,gcp,linux&perline=5&theme=light" alt="Backend and infrastructure skills" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,kotlin,spring,nodejs,python,postgres,mongodb,mysql,docker,linux&perline=5&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,kotlin,spring,nodejs,python,postgres,mongodb,mysql,docker,linux&perline=5&theme=light" />
+    <img src="https://skillicons.dev/icons?i=java,kotlin,spring,nodejs,python,postgres,mongodb,mysql,docker,linux&perline=5&theme=light" alt="Backend and infrastructure skills" />
   </picture>
 </a>
+
+![Event streaming](https://img.shields.io/badge/event%20streaming-8957e5?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-1f6feb?style=flat-square)
 
 </td>
 </tr>
 <tr>
 <td align="center" width="50%" valign="top">
 
+**🧪 Testing &amp; Quality**
+
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat-square&logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-78A641?style=flat-square&logo=java&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+![Testing Library](https://img.shields.io/badge/Testing%20Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white)
+![Cypress](https://img.shields.io/badge/Cypress-69D3A7?style=flat-square&logo=cypress&logoColor=black)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+</td>
+<td align="center" width="50%" valign="top">
+
 **🤖 AI &amp; ML**
 
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white)
 ![Copilot](https://img.shields.io/badge/Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-FF6F00?style=flat-square&logo=probot&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-0078D4?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-8957e5?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td align="center" width="50%" valign="top">
 
 **🧰 Tools**
@@ -302,6 +420,21 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
     <img src="https://skillicons.dev/icons?i=git,github,vscode,idea,webpack,babel,jest,figma,postman,vercel&perline=5&theme=light" alt="Tooling skills" />
   </picture>
 </a>
+
+</td>
+<td align="center" width="50%" valign="top">
+
+**☁️ Exploring**
+
+<a href="https://skillicons.dev">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kubernetes,azure,aws,gcp&perline=4&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kubernetes,azure,aws,gcp&perline=4&theme=light" />
+    <img src="https://skillicons.dev/icons?i=kubernetes,azure,aws,gcp&perline=4&theme=light" alt="Technologies I am currently studying" />
+  </picture>
+</a>
+
+<sub>Courses, labs and services I develop for — not production ops.</sub>
 
 </td>
 </tr>
@@ -349,11 +482,15 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 ### 🌐 Connect with me
 
 <p>
+  <a href="https://douglasmatosdasilva.vercel.app">
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/googlechrome/58a6ff" /><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/googlechrome/0969da" /><img height="44" src="https://cdn.simpleicons.org/googlechrome/0969da" alt="Personal website" /></picture>
+  </a>
+  &nbsp;
   <a href="mailto:douglasmatosdev@gmail.com">
     <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=gmail&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=gmail&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=gmail&theme=light" alt="Gmail" /></picture>
   </a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/devdouglasmatos/">
+  <a href="https://www.linkedin.com/in/dougmotshell/">
     <picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=linkedin&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=linkedin&theme=light" /><img height="44" src="https://skillicons.dev/icons?i=linkedin&theme=light" alt="LinkedIn" /></picture>
   </a>
   &nbsp;
