@@ -534,8 +534,8 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /><br/><sub><b>582.6 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>370.4 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /><br/><sub><b>370.0 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>341.8 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /><br/><sub><b>300.4 KB</b></sub></td>
 </tr>
 <tr>
