@@ -534,15 +534,15 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /><br/><sub><b>582.6 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>370.4 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /><br/><sub><b>370.0 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /><br/><sub><b>300.4 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /><br/><sub><b>296.5 KB</b></sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /><br/><sub><b>296.5 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>228.0 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" /><br/><sub><b>202.8 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake" /><br/><sub><b>150.3 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>140.9 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>131.8 KB</b></sub></td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/MDX-1B1F24?style=flat-square&logo=markdown&logoColor=white" alt="MDX" /><br/><sub><b>70.2 KB</b></sub></td>
@@ -563,18 +563,14 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 <td align="center"><img src="https://img.shields.io/badge/Objective-C-555555?style=flat-square&logo=code&logoColor=white" alt="Objective-C" /><br/><sub><b>8.0 KB</b></sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/PowerShell-555555?style=flat-square&logo=code&logoColor=white" alt="PowerShell" /><br/><sub><b>7.2 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Astro-555555?style=flat-square&logo=code&logoColor=white" alt="Astro" /><br/><sub><b>6.5 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Dockerfile-555555?style=flat-square&logo=code&logoColor=white" alt="Dockerfile" /><br/><sub><b>5.7 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/XSLT-555555?style=flat-square&logo=code&logoColor=white" alt="XSLT" /><br/><sub><b>4.8 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/EJS-555555?style=flat-square&logo=code&logoColor=white" alt="EJS" /><br/><sub><b>915 B</b></sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/EJS-555555?style=flat-square&logo=code&logoColor=white" alt="EJS" /><br/><sub><b>915 B</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Batchfile-555555?style=flat-square&logo=code&logoColor=white" alt="Batchfile" /><br/><sub><b>711 B</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Starlark-555555?style=flat-square&logo=code&logoColor=white" alt="Starlark" /><br/><sub><b>602 B</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Rust-555555?style=flat-square&logo=code&logoColor=white" alt="Rust" /><br/><sub><b>44 B</b></sub></td>
-</tr>
-<tr>
 <td align="center"><img src="https://img.shields.io/badge/Procfile-555555?style=flat-square&logo=code&logoColor=white" alt="Procfile" /><br/><sub><b>17 B</b></sub></td>
 </tr>
 </table>
