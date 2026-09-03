@@ -534,14 +534,14 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /><br/><sub><b>582.6 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>557.5 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>575.0 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /><br/><sub><b>370.0 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /><br/><sub><b>300.4 KB</b></sub></td>
 </tr>
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /><br/><sub><b>296.5 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>286.5 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" /><br/><sub><b>202.8 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>194.3 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Rust-555555?style=flat-square&logo=code&logoColor=white" alt="Rust" /><br/><sub><b>153.0 KB</b></sub></td>
 </tr>
 <tr>
@@ -560,12 +560,12 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 <td align="center"><img src="https://img.shields.io/badge/Vue-555555?style=flat-square&logo=code&logoColor=white" alt="Vue" /><br/><sub><b>16.4 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Vim%20Script-555555?style=flat-square&logo=code&logoColor=white" alt="Vim Script" /><br/><sub><b>14.2 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/PLpgSQL-555555?style=flat-square&logo=code&logoColor=white" alt="PLpgSQL" /><br/><sub><b>12.5 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Objective-C%2B%2B-555555?style=flat-square&logo=code&logoColor=white" alt="Objective-C++" /><br/><sub><b>11.7 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Makefile-555555?style=flat-square&logo=code&logoColor=white" alt="Makefile" /><br/><sub><b>12.1 KB</b></sub></td>
 </tr>
 <tr>
+<td align="center"><img src="https://img.shields.io/badge/Objective-C%2B%2B-555555?style=flat-square&logo=code&logoColor=white" alt="Objective-C++" /><br/><sub><b>11.7 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Swift-555555?style=flat-square&logo=code&logoColor=white" alt="Swift" /><br/><sub><b>9.6 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/PHP-555555?style=flat-square&logo=code&logoColor=white" alt="PHP" /><br/><sub><b>9.3 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Makefile-555555?style=flat-square&logo=code&logoColor=white" alt="Makefile" /><br/><sub><b>8.6 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Objective-C-555555?style=flat-square&logo=code&logoColor=white" alt="Objective-C" /><br/><sub><b>8.0 KB</b></sub></td>
 </tr>
 <tr>
