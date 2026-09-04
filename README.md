@@ -535,12 +535,12 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /><br/><sub><b>582.6 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>575.0 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>374.1 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /><br/><sub><b>370.0 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /><br/><sub><b>300.4 KB</b></sub></td>
 </tr>
 <tr>
+<td align="center"><img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" /><br/><sub><b>300.4 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /><br/><sub><b>296.5 KB</b></sub></td>
-<td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>286.5 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C" /><br/><sub><b>202.8 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Rust-555555?style=flat-square&logo=code&logoColor=white" alt="Rust" /><br/><sub><b>153.0 KB</b></sub></td>
 </tr>
