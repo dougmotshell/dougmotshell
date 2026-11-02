@@ -533,7 +533,7 @@ Even solo, these ship with the same rigor: living **specs & ADRs**, **C4** archi
 <td align="center"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /><br/><sub><b>1.5 MB</b></sub></td>
 </tr>
 <tr>
-<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>595.3 KB</b></sub></td>
+<td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/><sub><b>592.4 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS" /><br/><sub><b>582.1 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell" /><br/><sub><b>379.9 KB</b></sub></td>
 <td align="center"><img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter Notebook" /><br/><sub><b>370.0 KB</b></sub></td>
